@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21E258" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="MMTFacialNerveMeasurement" representedClassName="MMTFacialNerveMeasurement" syncable="YES" codeGenerationType="class">
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="expression" optional="YES" attributeType="String"/>
+        <attribute name="hasImage" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="image" optional="YES" attributeType="Binary"/>
+        <attribute name="measurements" optional="YES" attributeType="Transformable" valueTransformerName="NSSecureUnarchiveFromData"/>
+        <attribute name="uuid" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="MMTToolResult" representedClassName="MMTToolResult" syncable="YES" codeGenerationType="class">
+        <attribute name="date" attributeType="Date" defaultDateTimeInterval="651515400" usesScalarValueType="NO"/>
+        <attribute name="rating" attributeType="String"/>
+        <attribute name="testName" attributeType="String"/>
+        <attribute name="toolID" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="uuid" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="value" optional="YES" attributeType="Transformable" valueTransformerName="NSObjectValueTransformer"/>
+    </entity>
+    <elements>
+        <element name="MMTFacialNerveMeasurement" positionX="36" positionY="81" width="128" height="119"/>
+        <element name="MMTToolResult" positionX="54" positionY="144" width="128" height="119"/>
+    </elements>
+</model>
