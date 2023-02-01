@@ -11,6 +11,8 @@
 		06506360267BC57F0072016F /* VirtualContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0650635F267BC57F0072016F /* VirtualContent.swift */; };
 		0650636A267C0DC30072016F /* BlendShapeCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06506369267C0DC20072016F /* BlendShapeCharacter.swift */; };
 		0650636C267C0F600072016F /* MMTFacialNerveUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0650636B267C0F600072016F /* MMTFacialNerveUtils.swift */; };
+		35DBBAF5298A8A0E00A1F4D0 /* MMTSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DBBAF4298A8A0E00A1F4D0 /* MMTSessionManager.swift */; };
+		35DBBAF7298A8A6C00A1F4D0 /* MMTEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DBBAF6298A8A6C00A1F4D0 /* MMTEnums.swift */; };
 		723A422528BBB40C0069151A /* CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723A422428BBB40C0069151A /* CoreData.swift */; };
 		72607C9C28B238EE0050EEA3 /* ARVideoKit in Frameworks */ = {isa = PBXBuildFile; productRef = 72607C9B28B238EE0050EEA3 /* ARVideoKit */; };
 		729BFD21287C174A0099D9FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 729BFD20287C174A0099D9FA /* Assets.xcassets */; };
@@ -18,15 +20,11 @@
 		72F7990D287B70CF00C63107 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F7990C287B70CF00C63107 /* SceneDelegate.swift */; };
 		72F79911287B717200C63107 /* MMTNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F79910287B717200C63107 /* MMTNavigationController.swift */; };
 		72F7991A287B739F00C63107 /* MMTSegmentIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F79919287B739F00C63107 /* MMTSegmentIndicator.swift */; };
-		72F7991C287B73D700C63107 /* MMTPercentScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F7991B287B73D700C63107 /* MMTPercentScoreView.swift */; };
-		72F7991E287B73FD00C63107 /* MMTFacialNerveDiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F7991D287B73FD00C63107 /* MMTFacialNerveDiaryViewController.swift */; };
 		72F79920287B742300C63107 /* MMTFacialNerveDataManagementSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F7991F287B742300C63107 /* MMTFacialNerveDataManagementSheetViewController.swift */; };
 		72F79925287B747A00C63107 /* MMTFacialNerveHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F79924287B747A00C63107 /* MMTFacialNerveHomeViewController.swift */; };
 		72F79929287B74AB00C63107 /* MMTFacialNerveTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F79928287B74AB00C63107 /* MMTFacialNerveTestViewController.swift */; };
-		72F7992B287B74C200C63107 /* MMTFacialNerveResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F7992A287B74C200C63107 /* MMTFacialNerveResultsViewController.swift */; };
 		72F7992D287B74D700C63107 /* MMTTexturedFace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F7992C287B74D700C63107 /* MMTTexturedFace.swift */; };
 		72F7992F287B74EC00C63107 /* MMTFacialExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F7992E287B74EC00C63107 /* MMTFacialExpression.swift */; };
-		72F79931287B750300C63107 /* MMTBlendShapeLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F79930287B750300C63107 /* MMTBlendShapeLocation.swift */; };
 		72F79937287B773A00C63107 /* MMTButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F79936287B773A00C63107 /* MMTButton.swift */; };
 		72F79939287B775E00C63107 /* MMTRoundImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F79938287B775E00C63107 /* MMTRoundImage.swift */; };
 		72FFCCB528B0DF5A00F44BD2 /* Nerveous.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 72FFCCB328B0DF5A00F44BD2 /* Nerveous.xcdatamodeld */; };
@@ -39,21 +37,19 @@
 		0650635F267BC57F0072016F /* VirtualContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VirtualContent.swift; sourceTree = "<group>"; };
 		06506369267C0DC20072016F /* BlendShapeCharacter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlendShapeCharacter.swift; sourceTree = "<group>"; };
 		0650636B267C0F600072016F /* MMTFacialNerveUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMTFacialNerveUtils.swift; sourceTree = "<group>"; };
+		35DBBAF4298A8A0E00A1F4D0 /* MMTSessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMTSessionManager.swift; sourceTree = "<group>"; };
+		35DBBAF6298A8A6C00A1F4D0 /* MMTEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMTEnums.swift; sourceTree = "<group>"; };
 		723A422428BBB40C0069151A /* CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreData.swift; sourceTree = "<group>"; };
 		729BFD20287C174A0099D9FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		729BFD22287C175A0099D9FA /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		72F7990C287B70CF00C63107 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		72F79910287B717200C63107 /* MMTNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMTNavigationController.swift; sourceTree = "<group>"; };
 		72F79919287B739F00C63107 /* MMTSegmentIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMTSegmentIndicator.swift; sourceTree = "<group>"; };
-		72F7991B287B73D700C63107 /* MMTPercentScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMTPercentScoreView.swift; sourceTree = "<group>"; };
-		72F7991D287B73FD00C63107 /* MMTFacialNerveDiaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMTFacialNerveDiaryViewController.swift; sourceTree = "<group>"; };
 		72F7991F287B742300C63107 /* MMTFacialNerveDataManagementSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMTFacialNerveDataManagementSheetViewController.swift; sourceTree = "<group>"; };
 		72F79924287B747A00C63107 /* MMTFacialNerveHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMTFacialNerveHomeViewController.swift; sourceTree = "<group>"; };
 		72F79928287B74AB00C63107 /* MMTFacialNerveTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMTFacialNerveTestViewController.swift; sourceTree = "<group>"; };
-		72F7992A287B74C200C63107 /* MMTFacialNerveResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMTFacialNerveResultsViewController.swift; sourceTree = "<group>"; };
 		72F7992C287B74D700C63107 /* MMTTexturedFace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMTTexturedFace.swift; sourceTree = "<group>"; };
 		72F7992E287B74EC00C63107 /* MMTFacialExpression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMTFacialExpression.swift; sourceTree = "<group>"; };
-		72F79930287B750300C63107 /* MMTBlendShapeLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMTBlendShapeLocation.swift; sourceTree = "<group>"; };
 		72F79936287B773A00C63107 /* MMTButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMTButton.swift; sourceTree = "<group>"; };
 		72F79938287B775E00C63107 /* MMTRoundImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMTRoundImage.swift; sourceTree = "<group>"; };
 		72FFCCB428B0DF5A00F44BD2 /* Nerveous.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Nerveous.xcdatamodel; sourceTree = "<group>"; };
@@ -121,7 +117,6 @@
 			isa = PBXGroup;
 			children = (
 				72F79919287B739F00C63107 /* MMTSegmentIndicator.swift */,
-				72F7991B287B73D700C63107 /* MMTPercentScoreView.swift */,
 			);
 			path = FacialNerveSubViews;
 			sourceTree = "<group>";
@@ -138,7 +133,6 @@
 		72F79918287B731D00C63107 /* FacialNerveDiary */ = {
 			isa = PBXGroup;
 			children = (
-				72F7991D287B73FD00C63107 /* MMTFacialNerveDiaryViewController.swift */,
 				72F7991F287B742300C63107 /* MMTFacialNerveDataManagementSheetViewController.swift */,
 			);
 			path = FacialNerveDiary;
@@ -148,9 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				72F79928287B74AB00C63107 /* MMTFacialNerveTestViewController.swift */,
-				72F7992A287B74C200C63107 /* MMTFacialNerveResultsViewController.swift */,
 				72F7992C287B74D700C63107 /* MMTTexturedFace.swift */,
-				72F79930287B750300C63107 /* MMTBlendShapeLocation.swift */,
 			);
 			path = FacialNerveTestView;
 			sourceTree = "<group>";
@@ -161,6 +153,7 @@
 				72F79936287B773A00C63107 /* MMTButton.swift */,
 				72F79938287B775E00C63107 /* MMTRoundImage.swift */,
 				72F7992E287B74EC00C63107 /* MMTFacialExpression.swift */,
+				35DBBAF6298A8A6C00A1F4D0 /* MMTEnums.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -170,6 +163,7 @@
 			children = (
 				72FFCCB328B0DF5A00F44BD2 /* Nerveous.xcdatamodeld */,
 				723A422428BBB40C0069151A /* CoreData.swift */,
+				35DBBAF4298A8A0E00A1F4D0 /* MMTSessionManager.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -259,13 +253,12 @@
 				0650636C267C0F600072016F /* MMTFacialNerveUtils.swift in Sources */,
 				72F7992D287B74D700C63107 /* MMTTexturedFace.swift in Sources */,
 				72F79911287B717200C63107 /* MMTNavigationController.swift in Sources */,
-				72F7991E287B73FD00C63107 /* MMTFacialNerveDiaryViewController.swift in Sources */,
 				72F7990D287B70CF00C63107 /* SceneDelegate.swift in Sources */,
 				72F79937287B773A00C63107 /* MMTButton.swift in Sources */,
 				0650634B267BC21A0072016F /* AppDelegate.swift in Sources */,
 				72F79925287B747A00C63107 /* MMTFacialNerveHomeViewController.swift in Sources */,
-				72F7992B287B74C200C63107 /* MMTFacialNerveResultsViewController.swift in Sources */,
-				72F7991C287B73D700C63107 /* MMTPercentScoreView.swift in Sources */,
+				35DBBAF5298A8A0E00A1F4D0 /* MMTSessionManager.swift in Sources */,
+				35DBBAF7298A8A6C00A1F4D0 /* MMTEnums.swift in Sources */,
 				72F79929287B74AB00C63107 /* MMTFacialNerveTestViewController.swift in Sources */,
 				06506360267BC57F0072016F /* VirtualContent.swift in Sources */,
 				72F79939287B775E00C63107 /* MMTRoundImage.swift in Sources */,
@@ -275,7 +268,6 @@
 				0650636A267C0DC30072016F /* BlendShapeCharacter.swift in Sources */,
 				72F7992F287B74EC00C63107 /* MMTFacialExpression.swift in Sources */,
 				72F7991A287B739F00C63107 /* MMTSegmentIndicator.swift in Sources */,
-				72F79931287B750300C63107 /* MMTBlendShapeLocation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,6 +398,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W47Y3X8372;
 				INFOPLIST_FILE = "Nerve-ous/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Facial Analysis";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -425,6 +418,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W47Y3X8372;
 				INFOPLIST_FILE = "Nerve-ous/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Facial Analysis";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

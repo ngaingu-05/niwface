@@ -449,7 +449,6 @@ class MMTFacialNerveTestViewController: UIViewController, ARSessionDelegate, Ren
         //reset recordings
         self.recordings = []
         let homeViewController = MMTFacialNerveHomeViewController()
-        let resultViewController = MMTFacialNerveResultsViewController(scores: scores)
         //Original: add result view controller here
         self.navigationController?.setViewControllers([homeViewController], animated: true)
     }
@@ -563,7 +562,7 @@ extension MMTFacialNerveTestViewController: ARSCNViewDelegate {
             
             let newRecording = DataRecording(context: CoreData.stack.context)
             newRecording.uuid = currentTestUuid
-            newRecording.subjectName = CoreData.subject.name
+            newRecording.subjectName = SessionManager.sharedManager.subjectID
             newRecording.timestamp = Date()
             newRecording.expression = choice //self.currentFacialExpression.getString()
             newRecording.browDownLeft = faceAnchor.blendShapes[.browDownLeft] as! Float

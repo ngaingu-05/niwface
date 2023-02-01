@@ -142,63 +142,6 @@ class MMTFacialNerveDataManagementSheetViewController: UIViewController {
         return button
     }()
     
-    // MARK: Export
-    
-    /// Expressions which are being done during the test
-    /*private let expressions = [
-        MMTFacialExpression.smile,
-        MMTFacialExpression.raisedEyebrows,
-        MMTFacialExpression.puffedCheeks,
-        MMTFacialExpression.pursedLips,
-        MMTFacialExpression.closedEyes
-    ]*/
-     
-     private let expressions = [
-                    "anger",
-                    "fear",
-                    "disgust",
-                    "joy",
-                    "sadness",
-                    "surprise",
-                    "contempt",
-                    "eyeBlinkLR",
-                    "eyeLookDownLR",
-                    "eyeLookRight",
-                    "eyeLookLeft",
-                    "eyeLookUpLR",
-                    "eyeSquintLR",
-                    "eyeWideLR",
-                    "jawForward",
-                    "jawLeft",
-                    "jawRight",
-                    "jawOpen",
-                    "mouthClose",
-                    "mouthFunnel",
-                    "mouthPucker",
-                    "mouthLeft",
-                    "mouthRight",
-                    "mouthSmileLR",
-                    "mouthFrownLR",
-                    "mouthDimpleLR",
-                    "mouthStretchLR",
-                    "mouthRollLower",
-                    "mouthRollUpper",
-                    "mouthShrugLower",
-                    "mouthShrugUpper",
-                    "mouthPressLR",
-                    "mouthLowerDownLR",
-                    "mouthUpperUpLR",
-                    "browDownLR",
-                    "browInnerUp",
-                    "browOuterUpLeft",
-                    "browOuterUpRight",
-                    "cheekPuff",
-                    "cheekSquintLR",
-                    "noseSneerLeft",
-                    "noseSneerRight",
-                    "tongueOut"]
-    
-    
     @objc func exportData() {
         var items = [URL]()
         
@@ -325,21 +268,5 @@ class MMTFacialNerveDataManagementSheetViewController: UIViewController {
     func showMMTView() -> UIViewController {
         let viewController = MMTFacialNerveDataManagementSheetViewController()
         return viewController
-    }
-}
-
-struct TableDataItem {
-    let date: String
-    let totalScore: String
-    let foreheadScore: String
-    let eyesScore: String
-    let mouthScore: String
-
-    init(date: String, totalScore: String, foreheadScore: String, eyesScore: String, mouthScore: String) {
-        self.date = date
-        self.totalScore = totalScore
-        self.foreheadScore = foreheadScore
-        self.eyesScore = eyesScore
-        self.mouthScore = mouthScore
     }
 }

@@ -11,7 +11,6 @@ import CoreData
 class CoreData: NSObject {
     // Singletons
     static let stack = CoreData()
-    static var subject = Subject(context: CoreData.stack.context)
     
     // MARK: - Core Data stack
     public lazy var persistentContainer: NSPersistentContainer = {

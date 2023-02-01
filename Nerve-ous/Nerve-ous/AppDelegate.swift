@@ -15,7 +15,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         self.window = UIWindow(frame: UIScreen.main.bounds)
-        CoreData.subject.name = "DefaultName"
         if(UserDefaults.standard.bool(forKey: "notFirstInApp") == false){
             UserDefaults.standard.set(true, forKey: "notFirstInApp")
             //Here you can show a view that you have to launch at first launch
