@@ -1,0 +1,34 @@
+//
+//  MMTButton.swift
+//  Nerve-ous
+//
+//  Created by Céline Aldenhoven on 10.07.22.
+//
+
+import Foundation
+import UIKit
+
+final class MMTButton: UIButton {
+   var titleText: String? {
+        didSet {
+            setTitle(titleText, for: .normal)
+            setTitleColor(.white, for: .normal)
+        }
+    }
+
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+    }
+
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        
+        clipsToBounds = true
+        layer.cornerRadius = 30
+        layer.backgroundColor = UIColor(named: "FontColor")?.cgColor
+    }
+}

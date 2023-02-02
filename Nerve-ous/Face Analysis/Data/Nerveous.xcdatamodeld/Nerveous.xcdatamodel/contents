@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21513" systemVersion="22A400" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="DataRecording" representedClassName="DataRecording" syncable="YES" codeGenerationType="class">
+        <attribute name="anger" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="browDownLeft" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="browDownRight" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="browInnerUp" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="browOuterUpLeft" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="browOuterUpRight" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="cheekPuff" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="cheekSquintLeft" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="cheekSquintRight" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="contempt" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="disgust" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="expression" attributeType="String"/>
+        <attribute name="eyeBlinkLeft" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="eyeBlinkRight" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="eyeLookDownLeft" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="eyeLookDownRight" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="eyeLookInLeft" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="eyeLookInRight" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="eyeLookOutLeft" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="eyeLookOutRight" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="eyeLookUpLeft" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="eyeLookUpRight" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="eyeSquintLeft" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="eyeSquintRight" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="eyeWideLeft" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="eyeWideRight" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="fear" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="jawForward" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="jawLeft" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="jawOpen" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="jawRight" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="joy" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="mouthClose" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="mouthDimpleLeft" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="mouthDimpleRight" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="mouthFrownLeft" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="mouthFrownRight" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="mouthFunnel" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="mouthLeft" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="mouthLowerDownLeft" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="mouthLowerDownRight" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="mouthPressLeft" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="mouthPressRight" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="mouthPucker" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="mouthRight" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="mouthRollLower" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="mouthRollUpper" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="mouthShrugLower" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="mouthShrugUpper" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="mouthSmileLeft" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="mouthSmileRight" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="mouthStretchLeft" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="mouthStretchRight" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="mouthUpperUpLeft" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="mouthUpperUpRight" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="noseSneerLeft" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="noseSneerRight" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="sadness" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="sessionId" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="subjectName" attributeType="String"/>
+        <attribute name="surprise" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="timestamp" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="tongueOut" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="uuid" attributeType="UUID" usesScalarValueType="NO"/>
+    </entity>
+</model>

@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0650634B267BC21A0072016F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0650634A267BC21A0072016F /* AppDelegate.swift */; };
+		06506360267BC57F0072016F /* VirtualContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0650635F267BC57F0072016F /* VirtualContent.swift */; };
+		0650636A267C0DC30072016F /* BlendShapeCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06506369267C0DC20072016F /* BlendShapeCharacter.swift */; };
+		0650636C267C0F600072016F /* MMTFacialNerveUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0650636B267C0F600072016F /* MMTFacialNerveUtils.swift */; };
+		35DBBAF5298A8A0E00A1F4D0 /* MMTSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DBBAF4298A8A0E00A1F4D0 /* MMTSessionManager.swift */; };
+		35DBBAF7298A8A6C00A1F4D0 /* MMTEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DBBAF6298A8A6C00A1F4D0 /* MMTEnums.swift */; };
+		35DBBAFA298C0A7200A1F4D0 /* MMTExportManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DBBAF9298C0A7200A1F4D0 /* MMTExportManager.swift */; };
+		723A422528BBB40C0069151A /* CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723A422428BBB40C0069151A /* CoreData.swift */; };
+		72607C9C28B238EE0050EEA3 /* ARVideoKit in Frameworks */ = {isa = PBXBuildFile; productRef = 72607C9B28B238EE0050EEA3 /* ARVideoKit */; };
+		729BFD21287C174A0099D9FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 729BFD20287C174A0099D9FA /* Assets.xcassets */; };
+		729BFD23287C175A0099D9FA /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 729BFD22287C175A0099D9FA /* Colors.xcassets */; };
+		72F7990D287B70CF00C63107 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F7990C287B70CF00C63107 /* SceneDelegate.swift */; };
+		72F79911287B717200C63107 /* MMTNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F79910287B717200C63107 /* MMTNavigationController.swift */; };
+		72F79920287B742300C63107 /* MMTFacialNerveDataManagementSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F7991F287B742300C63107 /* MMTFacialNerveDataManagementSheetViewController.swift */; };
+		72F79925287B747A00C63107 /* MMTHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F79924287B747A00C63107 /* MMTHomeViewController.swift */; };
+		72F79929287B74AB00C63107 /* MMTFacialNerveTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F79928287B74AB00C63107 /* MMTFacialNerveTestViewController.swift */; };
+		72F7992D287B74D700C63107 /* MMTTexturedFace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F7992C287B74D700C63107 /* MMTTexturedFace.swift */; };
+		72F7992F287B74EC00C63107 /* MMTFacialExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F7992E287B74EC00C63107 /* MMTFacialExpression.swift */; };
+		72F79937287B773A00C63107 /* MMTButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F79936287B773A00C63107 /* MMTButton.swift */; };
+		72F79939287B775E00C63107 /* MMTRoundImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F79938287B775E00C63107 /* MMTRoundImage.swift */; };
+		72FFCCB528B0DF5A00F44BD2 /* Nerveous.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 72FFCCB328B0DF5A00F44BD2 /* Nerveous.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		06506347267BC21A0072016F /* Face Analysis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Face Analysis.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0650634A267BC21A0072016F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		06506358267BC21D0072016F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0650635F267BC57F0072016F /* VirtualContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VirtualContent.swift; sourceTree = "<group>"; };
+		06506369267C0DC20072016F /* BlendShapeCharacter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlendShapeCharacter.swift; sourceTree = "<group>"; };
+		0650636B267C0F600072016F /* MMTFacialNerveUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMTFacialNerveUtils.swift; sourceTree = "<group>"; };
+		35DBBAF4298A8A0E00A1F4D0 /* MMTSessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMTSessionManager.swift; sourceTree = "<group>"; };
+		35DBBAF6298A8A6C00A1F4D0 /* MMTEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMTEnums.swift; sourceTree = "<group>"; };
+		35DBBAF8298AACF200A1F4D0 /* ARVideoKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = ARVideoKit; path = ../../ARVideoKit; sourceTree = "<group>"; };
+		35DBBAF9298C0A7200A1F4D0 /* MMTExportManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMTExportManager.swift; sourceTree = "<group>"; };
+		723A422428BBB40C0069151A /* CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreData.swift; sourceTree = "<group>"; };
+		729BFD20287C174A0099D9FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		729BFD22287C175A0099D9FA /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		72F7990C287B70CF00C63107 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		72F79910287B717200C63107 /* MMTNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMTNavigationController.swift; sourceTree = "<group>"; };
+		72F7991F287B742300C63107 /* MMTFacialNerveDataManagementSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMTFacialNerveDataManagementSheetViewController.swift; sourceTree = "<group>"; };
+		72F79924287B747A00C63107 /* MMTHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMTHomeViewController.swift; sourceTree = "<group>"; };
+		72F79928287B74AB00C63107 /* MMTFacialNerveTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMTFacialNerveTestViewController.swift; sourceTree = "<group>"; };
+		72F7992C287B74D700C63107 /* MMTTexturedFace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMTTexturedFace.swift; sourceTree = "<group>"; };
+		72F7992E287B74EC00C63107 /* MMTFacialExpression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMTFacialExpression.swift; sourceTree = "<group>"; };
+		72F79936287B773A00C63107 /* MMTButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMTButton.swift; sourceTree = "<group>"; };
+		72F79938287B775E00C63107 /* MMTRoundImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMTRoundImage.swift; sourceTree = "<group>"; };
+		72FFCCB428B0DF5A00F44BD2 /* Nerveous.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Nerveous.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06506344267BC21A0072016F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72607C9C28B238EE0050EEA3 /* ARVideoKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0650633E267BC21A0072016F = {
+			isa = PBXGroup;
+			children = (
+				729BFD22287C175A0099D9FA /* Colors.xcassets */,
+				729BFD20287C174A0099D9FA /* Assets.xcassets */,
+				06506349267BC21A0072016F /* Face Analysis */,
+				06506348267BC21A0072016F /* Products */,
+				DBD6F8FA595CFC44DC35C92C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		06506348267BC21A0072016F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06506347267BC21A0072016F /* Face Analysis.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06506349267BC21A0072016F /* Face Analysis */ = {
+			isa = PBXGroup;
+			children = (
+				0650634A267BC21A0072016F /* AppDelegate.swift */,
+				72F7990C287B70CF00C63107 /* SceneDelegate.swift */,
+				72F79924287B747A00C63107 /* MMTHomeViewController.swift */,
+				06506358267BC21D0072016F /* Info.plist */,
+				72FFCCB228B0DF3500F44BD2 /* Data */,
+				72F79935287B770800C63107 /* Utils */,
+				72F79918287B731D00C63107 /* Export */,
+				72F79917287B72F800C63107 /* FacialNerveTest */,
+				0650635E267BC4FC0072016F /* Face Overlay Content */,
+			);
+			path = "Face Analysis";
+			sourceTree = "<group>";
+		};
+		0650635E267BC4FC0072016F /* Face Overlay Content */ = {
+			isa = PBXGroup;
+			children = (
+				06506369267C0DC20072016F /* BlendShapeCharacter.swift */,
+				0650635F267BC57F0072016F /* VirtualContent.swift */,
+			);
+			path = "Face Overlay Content";
+			sourceTree = "<group>";
+		};
+		72F79917287B72F800C63107 /* FacialNerveTest */ = {
+			isa = PBXGroup;
+			children = (
+				72F79928287B74AB00C63107 /* MMTFacialNerveTestViewController.swift */,
+				72F7992C287B74D700C63107 /* MMTTexturedFace.swift */,
+			);
+			path = FacialNerveTest;
+			sourceTree = "<group>";
+		};
+		72F79918287B731D00C63107 /* Export */ = {
+			isa = PBXGroup;
+			children = (
+				35DBBAF9298C0A7200A1F4D0 /* MMTExportManager.swift */,
+				72F7991F287B742300C63107 /* MMTFacialNerveDataManagementSheetViewController.swift */,
+			);
+			path = Export;
+			sourceTree = "<group>";
+		};
+		72F79935287B770800C63107 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				72F79910287B717200C63107 /* MMTNavigationController.swift */,
+				35DBBAF4298A8A0E00A1F4D0 /* MMTSessionManager.swift */,
+				0650636B267C0F600072016F /* MMTFacialNerveUtils.swift */,
+				72F79936287B773A00C63107 /* MMTButton.swift */,
+				72F79938287B775E00C63107 /* MMTRoundImage.swift */,
+				72F7992E287B74EC00C63107 /* MMTFacialExpression.swift */,
+				35DBBAF6298A8A6C00A1F4D0 /* MMTEnums.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		72FFCCB228B0DF3500F44BD2 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				72FFCCB328B0DF5A00F44BD2 /* Nerveous.xcdatamodeld */,
+				723A422428BBB40C0069151A /* CoreData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		DBD6F8FA595CFC44DC35C92C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35DBBAF8298AACF200A1F4D0 /* ARVideoKit */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06506346267BC21A0072016F /* Face Analysis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0650635B267BC21D0072016F /* Build configuration list for PBXNativeTarget "Face Analysis" */;
+			buildPhases = (
+				06506343267BC21A0072016F /* Sources */,
+				06506344267BC21A0072016F /* Frameworks */,
+				06506345267BC21A0072016F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Face Analysis";
+			packageProductDependencies = (
+				72607C9B28B238EE0050EEA3 /* ARVideoKit */,
+			);
+			productName = "Face Analysis";
+			productReference = 06506347267BC21A0072016F /* Face Analysis.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0650633F267BC21A0072016F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					06506346267BC21A0072016F = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 06506342267BC21A0072016F /* Build configuration list for PBXProject "Face Analysis" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0650633E267BC21A0072016F;
+			packageReferences = (
+				72607C9A28B238EE0050EEA3 /* XCRemoteSwiftPackageReference "ARVideoKit" */,
+			);
+			productRefGroup = 06506348267BC21A0072016F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06506346267BC21A0072016F /* Face Analysis */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06506345267BC21A0072016F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				729BFD23287C175A0099D9FA /* Colors.xcassets in Resources */,
+				729BFD21287C174A0099D9FA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06506343267BC21A0072016F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0650636C267C0F600072016F /* MMTFacialNerveUtils.swift in Sources */,
+				72F7992D287B74D700C63107 /* MMTTexturedFace.swift in Sources */,
+				72F79911287B717200C63107 /* MMTNavigationController.swift in Sources */,
+				72F7990D287B70CF00C63107 /* SceneDelegate.swift in Sources */,
+				72F79937287B773A00C63107 /* MMTButton.swift in Sources */,
+				0650634B267BC21A0072016F /* AppDelegate.swift in Sources */,
+				72F79925287B747A00C63107 /* MMTHomeViewController.swift in Sources */,
+				35DBBAF5298A8A0E00A1F4D0 /* MMTSessionManager.swift in Sources */,
+				35DBBAF7298A8A6C00A1F4D0 /* MMTEnums.swift in Sources */,
+				72F79929287B74AB00C63107 /* MMTFacialNerveTestViewController.swift in Sources */,
+				06506360267BC57F0072016F /* VirtualContent.swift in Sources */,
+				72F79939287B775E00C63107 /* MMTRoundImage.swift in Sources */,
+				35DBBAFA298C0A7200A1F4D0 /* MMTExportManager.swift in Sources */,
+				72F79920287B742300C63107 /* MMTFacialNerveDataManagementSheetViewController.swift in Sources */,
+				72FFCCB528B0DF5A00F44BD2 /* Nerveous.xcdatamodeld in Sources */,
+				723A422528BBB40C0069151A /* CoreData.swift in Sources */,
+				0650636A267C0DC30072016F /* BlendShapeCharacter.swift in Sources */,
+				72F7992F287B74EC00C63107 /* MMTFacialExpression.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		06506359267BC21D0072016F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0650635A267BC21D0072016F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0650635C267BC21D0072016F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W47Y3X8372;
+				INFOPLIST_FILE = "Face Analysis/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Face Analysis";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.digital-medicine.arkit-faceanalysis";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0650635D267BC21D0072016F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W47Y3X8372;
+				INFOPLIST_FILE = "Face Analysis/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Face Analysis";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.digital-medicine.arkit-faceanalysis";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06506342267BC21A0072016F /* Build configuration list for PBXProject "Face Analysis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06506359267BC21D0072016F /* Debug */,
+				0650635A267BC21D0072016F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0650635B267BC21D0072016F /* Build configuration list for PBXNativeTarget "Face Analysis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0650635C267BC21D0072016F /* Debug */,
+				0650635D267BC21D0072016F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		72607C9A28B238EE0050EEA3 /* XCRemoteSwiftPackageReference "ARVideoKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AFathi/ARVideoKit";
+			requirement = {
+				branch = swift_5;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		72607C9B28B238EE0050EEA3 /* ARVideoKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 72607C9A28B238EE0050EEA3 /* XCRemoteSwiftPackageReference "ARVideoKit" */;
+			productName = ARVideoKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		72FFCCB328B0DF5A00F44BD2 /* Nerveous.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				72FFCCB428B0DF5A00F44BD2 /* Nerveous.xcdatamodel */,
+			);
+			currentVersion = 72FFCCB428B0DF5A00F44BD2 /* Nerveous.xcdatamodel */;
+			path = Nerveous.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0650633F267BC21A0072016F /* Project object */;
+}
