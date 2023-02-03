@@ -442,6 +442,7 @@ extension MMTFacialNerveTestViewController: ARSCNViewDelegate {
             newRecording.sadness = 0.0
             newRecording.disgust = 0.0
             newRecording.surprise = 0.0
+            newRecording.joy = 0.0
             
             self.recordings.append(newRecording)
             CoreData.stack.saveContext()
