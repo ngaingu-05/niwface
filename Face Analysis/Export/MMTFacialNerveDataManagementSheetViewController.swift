@@ -144,7 +144,7 @@ class MMTFacialNerveDataManagementSheetViewController: UIViewController {
     
     @objc func exportData() {
         // TODO: Export all data
-        ExportManager.shared.exportAllRecordings { success in
+        ExportManager.shared.exportRecordings { success in
             // Reset the session ID.
             let optionSheet = UIAlertController(title: "Data successfully exported", message: "", preferredStyle: .alert)
             

@@ -120,6 +120,9 @@ class MMTFacialNerveTestViewController: UIViewController, ARSessionDelegate, Ren
         
         // "Reset" to run the AR session for the first time.
         resetTracking()
+        
+        // TODO: Show the instructions
+        //showInstructions()
     }
     
     override func viewWillDisappear(_ animated: Bool) {
@@ -162,7 +165,23 @@ class MMTFacialNerveTestViewController: UIViewController, ARSessionDelegate, Ren
         return button
     }()
     
-    // MARK: Button action functions
+    // MARK: - Initial Instructions
+    
+    func showInstructions() {
+        let alertController = UIAlertController(title: "Instructions", message: "Please imitate the expression \"\(choice)\"", preferredStyle: .alert)
+        
+        // TODO: Dynamically add correct image
+        if let image = UIImage(named: "facial nerve") {
+            alertController.add(image: image)
+        }
+        
+        let acceptAction = UIAlertAction(title: "Okay, let's go!", style: .default)
+        alertController.addAction(acceptAction)
+        
+        present(alertController, animated: true)
+    }
+    
+    // MARK: - Button action functions
     
     @objc private func startTimedRecording() {
         // Hide the UI
