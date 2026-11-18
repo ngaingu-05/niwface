@@ -109,8 +109,6 @@ class MMTFacialNerveTestViewController: UIViewController, ARSessionDelegate, Ren
         // Configure RecordAR to store media files in local app directory
         recorder?.deleteCacheWhenExported = false
         
-        let session = SessionManager.sharedManager
-        recorder?.sessionID = "\(session.subjectID)_\(session.currentRecording.description)_\(session.currentSession.uuidString)"
     }
     
     override func viewDidAppear(_ animated: Bool) {
