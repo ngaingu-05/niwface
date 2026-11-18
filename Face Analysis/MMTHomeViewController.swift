@@ -33,6 +33,8 @@ class MMTHomeViewController: UIViewController, UIPickerViewDelegate, UIPickerVie
         view.backgroundColor = UIColor(named: "BackgroundPrimary")
         self.title = "Face Analysis"
         self.navigationController?.navigationBar.prefersLargeTitles = true
+        let receiverButton = UIBarButtonItem(title: "Server", style: .plain, target: self, action: #selector(configureReceiver))
+        self.navigationItem.leftBarButtonItem = receiverButton
         let button1 = UIBarButtonItem(title: "Manage Data", style: .plain, target: self, action: #selector(manageData))
         self.navigationItem.rightBarButtonItem  = button1
         
@@ -164,6 +166,50 @@ class MMTHomeViewController: UIViewController, UIPickerViewDelegate, UIPickerVie
     @objc private func manageData() {
         let sheetViewController = MMTFacialNerveDataManagementSheetViewController(nibName: nil, bundle: nil)
         navigationController?.present(sheetViewController, animated: true, completion: nil)
+    }
+
+    @objc private func configureReceiver() {
+        let alert = UIAlertController(title: "Ubuntu WebSocket Receiver",
+                                      message: "Enter the Ubuntu server address. Example: ws://192.168.1.20:8000",
+                                      preferredStyle: .alert)
+        alert.addTextField { field in
+            field.placeholder = "ws://192.168.1.20:8000"
+            field.text = MMTRealtimeJSONClient.shared.configuredServerURL
+            field.keyboardType = .URL
+            field.autocapitalizationType = .none
+            field.autocorrectionType = .no
+        }
+        alert.addAction(UIAlertAction(title: "Cancel", style: .cancel))
+        alert.addAction(UIAlertAction(title: "Save & Test", style: .default) { [weak self, weak alert] _ in
+            let serverURL = alert?.textFields?.first?.text ?? ""
+            do {
+                try MMTRealtimeJSONClient.shared.configure(serverURL: serverURL)
+                MMTRealtimeJSONClient.shared.testConnection(serverURL: serverURL) { [weak self] result in
+                    switch result {
+                    case .success:
+                        self?.navigationItem.prompt = "Connected to Ubuntu receiver"
+                        DispatchQueue.main.asyncAfter(deadline: .now() + 3) { [weak self] in
+                            self?.navigationItem.prompt = nil
+                        }
+                    case .failure(let error):
+                        let errorAlert = UIAlertController(title: "Could not connect",
+                                                           message: error.localizedDescription + " Check the Ubuntu Wi-Fi IP, port 8000, and firewall.",
+                                                           preferredStyle: .alert)
+                        errorAlert.addAction(UIAlertAction(title: "OK", style: .default))
+                        self?.present(errorAlert, animated: true)
+                    }
+                }
+            } catch {
+                let errorAlert = UIAlertController(title: "Invalid receiver settings",
+                                                   message: error.localizedDescription,
+                                                   preferredStyle: .alert)
+                errorAlert.addAction(UIAlertAction(title: "OK", style: .default))
+                DispatchQueue.main.async { [weak self] in
+                    self?.present(errorAlert, animated: true)
+                }
+            }
+        })
+        present(alert, animated: true)
     }
     
     // Original: push introduction view

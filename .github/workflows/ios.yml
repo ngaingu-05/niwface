@@ -1,21 +1,34 @@
 name: Build unsigned IPA
-on: workflow_dispatch
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - codex/build-unsigned-ipa
+
+permissions:
+  contents: read
+
 jobs:
   build:
     runs-on: macos-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Build
+      - name: Resolve Swift packages
+        run: xcodebuild -resolvePackageDependencies -project "Face Analysis.xcodeproj" -scheme "Nerve-ous"
+      - name: Build unsigned iOS app
         run: |
-          xcodebuild -project MyApp.xcodeproj -scheme MyApp \
-            -configuration Release -sdk iphoneos -derivedDataPath build \
+          xcodebuild -project "Face Analysis.xcodeproj" -scheme "Nerve-ous" \
+            -configuration Release -sdk iphoneos -destination 'generic/platform=iOS' -derivedDataPath build \
             CODE_SIGNING_ALLOWED=NO CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY="" build
-      - name: Package IPA
+      - name: Package unsigned IPA
         run: |
-          mkdir Payload
-          cp -R build/Build/Products/Release-iphoneos/MyApp.app Payload/
-          zip -qr MyApp-unsigned.ipa Payload
+          APP_PATH="build/Build/Products/Release-iphoneos/Face Analysis.app"
+          test -d "$APP_PATH"
+          mkdir -p Payload
+          cp -R "$APP_PATH" Payload/
+          zip -qr Face-Analysis-unsigned.ipa Payload
       - uses: actions/upload-artifact@v4
         with:
           name: unsigned-ipa
-          path: MyApp-unsigned.ipa
+          path: Face-Analysis-unsigned.ipa
+          if-no-files-found: error

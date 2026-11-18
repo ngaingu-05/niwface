@@ -465,6 +465,7 @@ extension MMTFacialNerveTestViewController: ARSCNViewDelegate {
             
             self.recordings.append(newRecording)
             CoreData.stack.saveContext()
+            MMTRealtimeJSONClient.shared.enqueue(recording: newRecording)
         } else {
             print("***")
             contentNode.isHidden = false

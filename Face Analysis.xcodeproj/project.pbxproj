@@ -18,6 +18,7 @@
 		35EE0B3929901C6B00BCA901 /* UIImage+Resize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EE0B3829901C6B00BCA901 /* UIImage+Resize.swift */; };
 		35EE0B3B29901E5400BCA901 /* UIAlertController+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EE0B3A29901E5400BCA901 /* UIAlertController+Image.swift */; };
 		723A422528BBB40C0069151A /* CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723A422428BBB40C0069151A /* CoreData.swift */; };
+		F00D00000000000000000001 /* MMTRealtimeJSONClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00D00000000000000000002 /* MMTRealtimeJSONClient.swift */; };
 		72607C9C28B238EE0050EEA3 /* ARVideoKit in Frameworks */ = {isa = PBXBuildFile; productRef = 72607C9B28B238EE0050EEA3 /* ARVideoKit */; };
 		729BFD21287C174A0099D9FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 729BFD20287C174A0099D9FA /* Assets.xcassets */; };
 		729BFD23287C175A0099D9FA /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 729BFD22287C175A0099D9FA /* Colors.xcassets */; };
@@ -49,6 +50,7 @@
 		35EE0B3829901C6B00BCA901 /* UIImage+Resize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Resize.swift"; sourceTree = "<group>"; };
 		35EE0B3A29901E5400BCA901 /* UIAlertController+Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Image.swift"; sourceTree = "<group>"; };
 		723A422428BBB40C0069151A /* CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreData.swift; sourceTree = "<group>"; };
+		F00D00000000000000000002 /* MMTRealtimeJSONClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMTRealtimeJSONClient.swift; sourceTree = "<group>"; };
 		729BFD20287C174A0099D9FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		729BFD22287C175A0099D9FA /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		72F7990C287B70CF00C63107 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				72F79910287B717200C63107 /* MMTNavigationController.swift */,
+				F00D00000000000000000002 /* MMTRealtimeJSONClient.swift */,
 				35DBBAF4298A8A0E00A1F4D0 /* MMTSessionManager.swift */,
 				0650636B267C0F600072016F /* MMTFacialNerveUtils.swift */,
 				72F79936287B773A00C63107 /* MMTButton.swift */,
@@ -266,6 +269,7 @@
 				72FFCCB528B0DF5A00F44BD2 /* Nerveous.xcdatamodeld in Sources */,
 				35EE0B3B29901E5400BCA901 /* UIAlertController+Image.swift in Sources */,
 				723A422528BBB40C0069151A /* CoreData.swift in Sources */,
+				F00D00000000000000000001 /* MMTRealtimeJSONClient.swift in Sources */,
 				0650636A267C0DC30072016F /* BlendShapeCharacter.swift in Sources */,
 				72F7992F287B74EC00C63107 /* MMTFacialExpression.swift in Sources */,
 			);

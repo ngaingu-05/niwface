@@ -26,12 +26,19 @@
 	<true/>
 	<key>NSCameraUsageDescription</key>
 	<string>Audiovisual Recording</string>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>Connect to your Ubuntu server to send facial tracking recordings over your local network.</string>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>Audiovisual Recording</string>
 	<key>NSPhotoLibraryAddUsageDescription</key>
 	<string>Export AR Media</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>Export AR Media</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsLocalNetworking</key>
+		<true/>
+	</dict>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
 	<key>UIFileSharingEnabled</key>

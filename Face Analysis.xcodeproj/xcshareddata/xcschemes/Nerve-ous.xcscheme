@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "06506346267BC21A0072016F"
-               BuildableName = "Nerve-ous.app"
-               BlueprintName = "Nerve-ous"
-               ReferencedContainer = "container:Nerve-ous.xcodeproj">
+               BuildableName = "Face Analysis.app"
+               BlueprintName = "Face Analysis"
+               ReferencedContainer = "container:Face Analysis.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,9 +46,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "06506346267BC21A0072016F"
-            BuildableName = "Nerve-ous.app"
-            BlueprintName = "Nerve-ous"
-            ReferencedContainer = "container:Nerve-ous.xcodeproj">
+               BuildableName = "Face Analysis.app"
+               BlueprintName = "Face Analysis"
+               ReferencedContainer = "container:Face Analysis.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -63,9 +63,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "06506346267BC21A0072016F"
-            BuildableName = "Nerve-ous.app"
-            BlueprintName = "Nerve-ous"
-            ReferencedContainer = "container:Nerve-ous.xcodeproj">
+               BuildableName = "Face Analysis.app"
+               BlueprintName = "Face Analysis"
+               ReferencedContainer = "container:Face Analysis.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
