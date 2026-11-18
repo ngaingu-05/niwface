@@ -21,7 +21,7 @@ class MMTHomeViewController: UIViewController, UIPickerViewDelegate, UIPickerVie
     
     init() {
         self.first = false
-        super.self.init(nibName:nil, bundle:nil)
+        super.init(nibName: nil, bundle: nil)
     }
     
     required init?(coder: NSCoder) {
